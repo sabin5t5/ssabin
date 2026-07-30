@@ -96,7 +96,7 @@ COPY --from=composer /var/www/html /var/www/html
 
 
 # Copy Vite production assets
-COPY --from=node /var/www/html/public/build ./public/build
+#COPY --from=node /var/www/html/public/build ./public/build
 
 
 COPY docker/php/php.ini /usr/local/etc/php/conf.d/custom.ini
