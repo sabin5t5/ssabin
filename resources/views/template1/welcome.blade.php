@@ -6,9 +6,6 @@
 @include('template1.widgets.stats')
 @include('template1.widgets.skills')
 @include('template1.widgets.resume')
-@include('template1.widgets.portfolio')
-@include('template1.widgets.services')
-@include('template1.widgets.testimonials')
 @include('template1.widgets.contact')
 
 @endsection
