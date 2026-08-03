@@ -38,10 +38,10 @@ services:
     container_name: ssabin-mysql
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: ssabin_db
-      MYSQL_USER: ssabin_user
-      MYSQL_PASSWORD: FGmAJ2MDu3jNs
-      MYSQL_ROOT_PASSWORD: FGmAJ2MDu3jNsabin
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-ssabin_db}
+      MYSQL_USER: ${MYSQL_USER:-ssabin_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-change_me}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-change_me}
     ports:
       - "3306:3306"
     volumes:
