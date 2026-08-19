@@ -6,9 +6,9 @@
           <li><a href="{{url('/')}}#hero" class="{{ Request::is('/#hero') ? 'active' : '' }}"><i class="bi bi-house navicon"></i>Home</a></li>
           <li><a href="{{url('/')}}#about" class="{{ Request::is('/#about') ? 'active' : '' }}"><i class="bi bi-person navicon"></i> About</a></li>
           <li><a href="{{ url('blogs') }}" class="{{ Request::is('blogs') ? 'active' : '' }}"><i class="bi bi-substack navicon"></i> Blogs</a></li>
+          <li><a href="{{url('/')}}#skills" class="{{ Request::is('/#skills') ? 'active' : '' }}"><i class="bi bi-hdd-stack navicon"></i> Skills</a></li>
           <li><a href="{{url('/')}}#resume" class="{{ Request::is('/#resume') ? 'active' : '' }}"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="{{url('/')}}#portfolio" class="{{ Request::is('/#portfolio') ? 'active' : '' }}"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="{{url('/')}}#services" class="{{ Request::is('/#services') ? 'active' : '' }}"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+          <!-- <li><a href="{{url('/')}}#portfolio" class="{{ Request::is('/#portfolio') ? 'active' : '' }}"><i class="bi bi-images navicon"></i> Portfolio</a></li> -->
           <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -26,7 +26,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <!-- <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li> -->
         </ul>
       </nav>
 

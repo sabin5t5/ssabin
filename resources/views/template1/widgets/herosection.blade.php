@@ -20,7 +20,7 @@
 
             <div class="hero-actions">
                 <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                <a href="#about" class="btn btn-outline">Get In Touch</a>
             </div>
 
             <div class="social-links">

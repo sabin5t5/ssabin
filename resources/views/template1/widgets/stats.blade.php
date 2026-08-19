@@ -32,10 +32,10 @@
 
             <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-wrapper">
-                <i class="bi bi-people"></i>
+                <i class="bi bi-clock"></i>
             </div>
-            <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
+            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Years of Experience</p>
             </div><!-- End Stats Item -->
         </div>
         </div>
